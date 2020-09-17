@@ -1,0 +1,85 @@
+
+body {
+    background: #FFF1D6 url(./imgs/bg.gif);
+        background-repeat: repeat;
+    line-height: 1.5;
+    }
+    
+    
+    .container {
+    margin: 0 auto;
+    width: 960px;
+    }
+    
+    article {
+    background-color: #5c97a1;
+    border: 1px solid #CCC;
+    border-color: #1b268a #1b268a #1b268a #1b268a;
+    margin-bottom: 20px;
+    padding: 10px; /* espaçamento entre a borda e o título */
+    }
+    
+    
+    article h2 {
+    border-bottom: 1px dashed #1b268a;
+    margin: 0;
+    }
+    
+    article img {
+    border: 1px solid #1b268a;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 160px;
+    height: 160px;
+    }
+    
+    article a { /* mudando a cor dos links para negrito */
+    color: #2C88A7;
+    font-weight: bold;
+    }
+    
+    header h1 a {
+    color: #1b268a;
+    text-decoration: none;
+    margin-left:250px;
+    }
+    
+    header h1 a:hover { /* mudando a cor do link quando posicionado */
+    background-color: #a15c9b;
+    color: #FFF;
+    }
+    
+    .clear { /* para a imagem nao "ficar fora" quando usa o float */
+    clear: both;
+    }
+    
+    footer {
+    font-size: 12px;
+    text-align: center;
+    }
+    
+    section { /* para a barra lateral lista e titulo */
+    float: left;
+    width: 660px;
+    }
+    
+    aside {
+    background-color: #177f99;
+    border: 1px solid #1b268a;
+    padding: 10px;
+    float: right;
+    width: 260px;
+    }
+    
+    aside h3 {
+    font-size: 14px;
+    margin-top: 0;
+    }
+    
+    aside ol {
+    font-size: 12px;
+    }
+    
+    
+    
